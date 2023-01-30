@@ -18,35 +18,3 @@ $(document).ready(function () {
             $('#following').text(seguindo);
 
         })
-
-
-    // fetch(endpoint)
-    //     .then(function (resposta) {
-    //         return resposta.json();
-    //     })
-
-    //     .then(function (json) {
-
-    //         const img = json.avatar_url;
-    //         const name = json.name;
-    //         const username = json.login;
-    //         const repositories = json.public_repos;
-    //         const seguidores = json.followers;
-    //         const seguindo = json.following;
-
-    //         $('#img').attr('src', img);
-    //         $('#name').text(name);
-    //         $('#username').text(`@${username}`);
-    //         $('#repositories').text(repositories);
-    //         $('#followers').text(seguidores);
-    //         $('#following').text(seguindo);
-    //     })
-
-    //     .catch(function (erro) {
-    //         alert('Ops')
-    //     })
-
-    //     .finally(function(){
-
-    //     })
-})
